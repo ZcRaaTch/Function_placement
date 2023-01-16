@@ -1,0 +1,29 @@
+int createArray(int numberOfRows, int numberOfColumns)
+{
+	int twoDArray[numberOfRows][numberOfColumns];
+	for(int i=0;i<numberOfRows;i++)
+	{
+		for(int j=0;j<numberOfColumns;j++)
+		{
+			cin>>twoDArray[i][j];
+		}
+	}
+	return twoDArray;
+}
+
+int sortArray(int twoDArray[MAX_SIZE][MAX_SIZE], int columnIndex)
+{
+	int m = twoDArray[].size();
+	int n = twoDArray.size();
+	while(m>1){
+	for(int i=1;i<n;i++)
+	{
+		if(twoDArray[i][columnIndex]<twoDArray[i-1][columnIndex]{
+		int temp = twoDArray[i-1][columnIndex];
+		twoDArray[i-1][columnIndex]=twoDArray[i][columnIndex];
+		twoDArray[i][columnIndex]=tmep;
+		
+	}
+	}
+ return twoDArray;
+}
